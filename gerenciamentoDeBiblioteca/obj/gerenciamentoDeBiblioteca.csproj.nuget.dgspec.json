@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj": {}
+    "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaResiFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj": {
+    "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaResiFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaResiFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj",
         "projectName": "gerenciamentoDeBiblioteca",
-        "projectPath": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj",
+        "projectPath": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaResiFerreiraCosta\\gerenciamentoDeBiblioteca\\gerenciamentoDeBiblioteca.csproj",
         "packagesPath": "C:\\Users\\João Pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaFerreiraCosta\\gerenciamentoDeBiblioteca\\obj\\",
+        "outputPath": "C:\\Users\\João Pedro\\Documents\\Visual Studio 2022\\bibliotecaResiFerreiraCosta\\gerenciamentoDeBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

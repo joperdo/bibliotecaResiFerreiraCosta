@@ -9,15 +9,10 @@ namespace gerenciamentoDeBiblioteca.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        // GET: api/<UsuarioController>
         [HttpGet]
-        public IEnumerable<UsuarioModel> Get()
+        public ActionResult<List<UsuarioModel>> BuscarTodosUsuarios()
         {
-            List<UsuarioModel> usuarioModels = new List<UsuarioModel>();
-
-            usuarioModels.Add(new UsuarioModel() { Id = 1, Nome = "João Pedro", Email = "joperdobfs@gmail.com"});
-
-            return usuarioModels;
+            return Ok();
         }
 
         // GET api/<UsuarioController>/5
