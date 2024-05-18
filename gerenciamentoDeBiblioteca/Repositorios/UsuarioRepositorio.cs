@@ -62,5 +62,9 @@ namespace gerenciamentoDeBiblioteca.Repositorios
             return true;
         }
 
+        public Task<UsuarioModel> Adicionar(object usuarioModel)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

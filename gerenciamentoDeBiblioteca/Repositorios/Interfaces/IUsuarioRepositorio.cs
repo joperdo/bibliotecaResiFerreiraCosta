@@ -9,5 +9,6 @@ namespace gerenciamentoDeBiblioteca.Repositorios.Interfaces
         Task<UsuarioModel> Adicionar(UsuarioModel usuario);
         Task<UsuarioModel> Atualizar(UsuarioModel usuario, int id);
         Task<bool> Apagar(int id);
+        Task<UsuarioModel> Adicionar(object usuarioModel);
     }
 }
