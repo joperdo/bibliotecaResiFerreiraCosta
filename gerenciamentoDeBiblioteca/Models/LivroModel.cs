@@ -15,5 +15,7 @@ namespace gerenciamentoDeBiblioteca.Models
         public float Valor { get; set; }
 
         public StatusLivro Status { get; set; }
+        public int? UsuarioId { get; set; }
+        public virtual UsuarioModel? Usuario { get; set; }
     }
 }

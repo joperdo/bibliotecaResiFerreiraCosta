@@ -14,6 +14,9 @@ namespace gerenciamentoDeBiblioteca.Data.Map
             builder.Property(x => x.Categoria).IsRequired().HasMaxLength(150);
             builder.Property(x => x.Valor).IsRequired();
             builder.Property(x => x.Status).IsRequired();
+            builder.Property(x => x.UsuarioId);
+
+            builder.HasOne(x => x.Usuario);
         }
     }
 }
