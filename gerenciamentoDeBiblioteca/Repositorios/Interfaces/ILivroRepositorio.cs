@@ -1,4 +1,6 @@
 ﻿using gerenciamentoDeBiblioteca.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace gerenciamentoDeBiblioteca.Repositorios.Interfaces
 {
@@ -9,6 +11,8 @@ namespace gerenciamentoDeBiblioteca.Repositorios.Interfaces
         Task<LivroModel> Adicionar(LivroModel livro);
         Task<LivroModel> Atualizar(LivroModel livro, int id);
         Task<bool> Apagar(int id);
-        Task<LivroModel> Adicionar(object livroModel);
+        Task<List<LivroModel>> PesquisarPorNome(string nome);
+        Task<List<LivroModel>> PesquisarPorAutor(string autor);
+        Task<List<LivroModel>> PesquisarPorCategoria(string categoria);
     }
 }
