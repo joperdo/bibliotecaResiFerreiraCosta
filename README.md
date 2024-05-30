@@ -10,7 +10,7 @@ Este projeto é uma aplicação ASP.NET Core para o gerenciamento de uma bibliot
 - Cicero Antonio Maciel Siqueira
 - João Pedro Brito Ferreira da Silva
 - Lucas Gabriel Correia do Nascimento
-- Mariah
+- Mariah Cecilia da Silva Alves
 - Thiago Costa da Silva
 
 ## 🗂️ Estrutura do Projeto
